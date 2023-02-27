@@ -1,0 +1,110 @@
+.filmCard {
+    display: flex;
+    width: 454px;
+    height: 281px;
+    margin-top: 34px;
+    background: #ffffff;
+    box-shadow: 0 4px 12px 0 #00000026;
+  }
+  
+  .filmCard__pic {
+    display: flex;
+    justify-content: center;
+    flex-basis: 45%;
+  }
+  
+  .filmCard__poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  .filmCard__description {
+    display: flex;
+    flex-basis: 55%;
+    /*height: 100%;*/
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    overflow-y: auto;
+  }
+  
+  .filmCard__description::-webkit-scrollbar {
+    width: 3px;
+    background: #e0d8d8;
+    border-radius: 10%;
+  }
+  
+  .filmCard__description::-webkit-scrollbar-thumb {
+    background-color: #a2a8a8;
+    border-radius: 10%;
+  }
+  
+  .filmCard__header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .filmCard__title {
+    flex-basis: 80%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+  }
+  
+  .filmCard__avgRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 0 0;
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 13px;
+  }
+  
+  .filmCard__date {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #827e7e;
+  }
+  
+  .filmCard__genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .filmCard__genre {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 8px;
+    padding: 2px 3px 3px 5px;
+    color: rgba(0, 0, 0, 0.65);
+    background: #fafafa;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+  
+  .filmCard__overview {
+    width: 228px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .filmCard__rate {
+    margin-bottom: 10px;
+  }

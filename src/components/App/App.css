@@ -1,0 +1,15 @@
+.movieApp {
+    margin: 0 auto;
+    width: 1010px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .ant-tabs-tabpane {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }

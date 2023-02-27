@@ -1,0 +1,9 @@
+.spinner {
+    display:block;
+	margin: 20px 0;
+	margin-bottom: 20px;
+	padding: 30px 50px;
+	text-align: center;
+	border-radius: 4px;
+	height: 100vh;
+  }
