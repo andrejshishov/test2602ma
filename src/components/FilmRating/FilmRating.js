@@ -1,6 +1,6 @@
 import { Rate } from 'antd';
 
-import { FilmConsumer } from '../FilmContext';
+import { FilmConsumer } from '../../context';
 
 function RateBar({ id, rating }) {
   return (

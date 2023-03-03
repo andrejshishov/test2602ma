@@ -11,7 +11,7 @@ import SearchBar from '../FilmSearch';
 import PagePagination from '../FilmPagination';
 import SearchTab from '../SearchTab';
 import RatedTab from '../RatedTab';
-import { FilmProvider } from '../FilmContext';
+import { FilmProvider } from '../../context';
 import FilmService from '../../services/moviedb-service';
 import Spinner from '../Spinner';
 

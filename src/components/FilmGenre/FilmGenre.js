@@ -1,4 +1,4 @@
-import { FilmConsumer } from '../FilmContext';
+import { FilmConsumer } from '../../context';
 
 function FilmGenre({ genreId }) {
   return (
